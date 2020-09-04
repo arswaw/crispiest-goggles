@@ -1,5 +1,8 @@
 import { html } from 'https://unpkg.com/htm/preact/index.mjs?module'
+//import Counter from './Counter.js';
 
-export default function App (props) {
-    return html`<h1>Hello ${props.name}!</h1>`;
-}
+export default function (props) {
+    return html`
+        <h1>This is ${props.name}!</h1>
+    `;
+} 
